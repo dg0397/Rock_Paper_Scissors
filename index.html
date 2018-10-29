@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock Paper Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <header id="title">
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        <section id="select-options">
+            <div id="options">
+                <div class="option" id="Rock">
+                    <p>Rock</p>
+                    <span id="rock"><i class="far fa-hand-rock"></i></span>
+                </div>
+                <div class="option" id="Paper">
+                    <p>Paper</p>
+                    <span id="paper"><i class="far fa-hand-paper"></i></span>
+                </div>
+                <div class="option" id="Scissors">
+                    <p>Scissors</p>
+                    <span id="scissors"><i class="far fa-hand-scissors"></i></span>
+                </div>
+            </div>
+        </section>
+        <section id="results-round">
+            <div id="results">
+                <div class="result">
+                    <p>User</p>
+                    <span id="user-result"><i class="fas fa-question"></i></span>
+                </div>
+                <div class="result">
+                    <p>Computer</p>
+                    <span id="computer-result"><i class="fas fa-question"></i></span>
+                </div>
+            </div>
+        </section>
+        <section id="score">
+            <div id="conatiner-score">
+                <div class="round">
+                    <p>Round</p>
+                    <span id="round-play"></span>
+                </div>
+                <div class="victories">
+                    <h2>Score</h2>
+                    <div class="container-wins">
+                        <div class="v-user">
+                            <p>User</p>
+                            <span id="c-user">1</span>
+                        </div>
+                        <div class="v-user">
+                            <p>Computer</p>
+                            <span id="c-computer">1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="play-again">
+            <h2 id="Winner"></h2>
+            <button id="btn-play">Play Again</button>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
